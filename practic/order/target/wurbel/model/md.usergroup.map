@@ -1,0 +1,23 @@
+#@/opt/order/order-pdo/src/main/java/flipkart/pdo/md/UserGroup.java:24
+
+# User Group
+name := UserGroup
+table := md.usergroup
+id := 1002
+extends := OrgUnit
+integrity := full
+
+## attributes
+[cached]
+
+## indexes
+
+## relations
+User2Group:
+   relation = composite list,
+   name = nmLinks,
+   method = UserGroupId,
+   nm = User Users
+
+## validations
+

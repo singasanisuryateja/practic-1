@@ -1,0 +1,13 @@
+flipkart/common/mvnSessionInfo.class
+flipkart/common/mvnPreferencesHolder.class
+flipkart/common/mvnSessionInfoFactory.class
+flipkart/common/mvnHelper.class
+flipkart/common/mvnDomainContext.class
+flipkart/common/mvnDomainContextFactory.class
+module-info.class
+flipkart/common/service/Hook.class
+flipkart/common/Version.class
+flipkart/common/Constants.class
+flipkart/common/mvnCryptor.class
+flipkart/common/mvnPreferences.class
+flipkart/common/mvnLocaleProvider.class

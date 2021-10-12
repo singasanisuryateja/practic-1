@@ -1,0 +1,5 @@
+flipkart.pdo.td.Message = "Message"
+flipkart.pdo.md.User = "User"
+flipkart.pdo.md.OrgUnit = "Organizational Unit"
+flipkart.pdo.md.UserGroup = "UserGroup"
+flipkart.pdo.md.User2Group = "User2Group"

@@ -1,0 +1,5 @@
+flipkart.persist.td.MessagePersistenceImpl = flipkart.pdo.td.Message
+flipkart.persist.md.User2GroupPersistenceImpl = flipkart.pdo.md.User2Group
+flipkart.persist.md.UserPersistenceImpl = flipkart.pdo.md.User
+flipkart.persist.md.OrgUnitPersistenceImpl = flipkart.pdo.md.OrgUnit
+flipkart.persist.md.UserGroupPersistenceImpl = flipkart.pdo.md.UserGroup

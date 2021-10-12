@@ -1,0 +1,12 @@
+/opt/order/order-common/src/main/java/flipkart/common/mvnDomainContextFactory.java
+/opt/order/order-common/src/main/java/flipkart/common/mvnCryptor.java
+/opt/order/order-common/src/main/java/flipkart/common/mvnDomainContext.java
+/opt/order/order-common/src/main/java/flipkart/common/mvnPreferences.java
+/opt/order/order-common/src/main/java/flipkart/common/mvnSessionInfo.java
+/opt/order/order-common/src/main/java/flipkart/common/mvnSessionInfoFactory.java
+/opt/order/order-common/src/main/java/flipkart/common/service/Hook.java
+/opt/order/order-common/src/main/java/flipkart/common/Version.java
+/opt/order/order-common/src/main/java/flipkart/common/mvnLocaleProvider.java
+/opt/order/order-common/src/main/java/module-info.java
+/opt/order/order-common/src/main/java/flipkart/common/mvnHelper.java
+/opt/order/order-common/src/main/java/flipkart/common/Constants.java

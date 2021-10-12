@@ -1,0 +1,21 @@
+#@/opt/order/order-pdo/src/main/java/flipkart/pdo/md/OrgUnit.java:23
+
+# Organizational Unit
+name := OrgUnit
+table := md.orgunit
+inheritance := multi
+integrity := full
+
+## attributes
+[cached | +name]
+String(20)       name        name        short name [key, uc, normtext]
+String(256)    comment     ocomment    optional comment [normtext]
+
+## indexes
+unique index udk := name
+
+## relations
+
+## validations
+name: @NotNull(message="{ @('please enter the name') }")
+

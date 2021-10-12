@@ -1,0 +1,3 @@
+flipkart.gui.message.MessageGuiProvider = flipkart.pdo.td.Message
+flipkart.gui.user.UserGuiProvider = flipkart.pdo.md.User
+flipkart.gui.usergroup.UserGroupGuiProvider = flipkart.pdo.md.UserGroup

@@ -1,0 +1,31 @@
+#@/opt/order/order-pdo/src/main/java/flipkart/pdo/td/Message.java:28
+
+# Message
+name := Message
+table := td.message
+id := 2001
+integrity := full
+
+## attributes
+[tableserial]
+String(10)                  messageNumber         message_no      message number [key, normtext, @NotNull]
+Timestamp                        when                  mwhen           timestamp of message [@NotNull]
+MessageType<String>(30)   messageType           mtype           the message type [trimwrite, @NotNull]
+Integer                          refersToClassId       ref_class_id    class id if message refers to a PDO
+Long                             refersToPdoId         ref_pdo_id      object id if message refers to a PDO
+String(30)                 refersToText          ref_txt         refers text or toString of refersToPdo [trimwrite, normtext]
+Long                             orgUnitId             orgunit_id      ID of the responsible orgunit
+String(1024)                text                  mtext           message text [trimwrite, normtext]
+
+
+## indexes
+unique index udk  := message_no
+index type        := mtype, id
+index orgunit     := orgunit_id
+index when        := mwhen
+
+
+## relations
+OrgUnit:
+   relation = normtext
+

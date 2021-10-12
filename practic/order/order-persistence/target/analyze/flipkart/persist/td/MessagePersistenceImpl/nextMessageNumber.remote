@@ -1,0 +1,8 @@
+# org.tentackle.buildsupport.RemoteMethodInfo Version 2.0
+# public java.lang.String nextMessageNumber()
+method: nextMessageNumber
+class: flipkart.persist.td.MessagePersistenceImpl
+superclass: flipkart.persist.AbstractPersistentTransactionData<flipkart.pdo.td.Message,flipkart.persist.td.MessagePersistenceImpl>
+returns: java.lang.String . false false false false false false
+modifiers: public
+varargs: false

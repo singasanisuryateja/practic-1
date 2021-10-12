@@ -1,0 +1,4 @@
+org.tentackle.session.ClassId: flipkart.pdo.md.User = 1001
+org.tentackle.pdo.Plural: flipkart.pdo.md.User = "Users"
+org.tentackle.pdo.Singular: flipkart.pdo.md.User = "User"
+org.tentackle.session.TableName: flipkart.pdo.md.User = "md.user"

@@ -1,0 +1,4 @@
+org.tentackle.session.ClassId: flipkart.pdo.td.Message = 2001
+org.tentackle.pdo.Plural: flipkart.pdo.td.Message = "Messages"
+org.tentackle.pdo.Singular: flipkart.pdo.td.Message = "Message"
+org.tentackle.session.TableName: flipkart.pdo.td.Message = "td.message"

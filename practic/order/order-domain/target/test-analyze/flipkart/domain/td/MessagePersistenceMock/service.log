@@ -1,0 +1,1 @@
+org.tentackle.pdo.PersistentObject: flipkart.domain.td.MessagePersistenceMock = flipkart.pdo.td.Message

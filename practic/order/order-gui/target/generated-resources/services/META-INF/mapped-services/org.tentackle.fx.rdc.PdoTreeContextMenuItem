@@ -1,0 +1,2 @@
+flipkart.gui.user.RemoveUserGroupItem = flipkart.pdo.md.UserGroup
+flipkart.gui.usergroup.RemoveUserItem = flipkart.pdo.md.User

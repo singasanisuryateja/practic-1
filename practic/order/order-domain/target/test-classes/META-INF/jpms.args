@@ -1,0 +1,4 @@
+--patch-module
+flipkart.domain=_
+--add-reads
+flipkart.domain=ALL-UNNAMED

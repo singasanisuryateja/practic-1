@@ -1,0 +1,1 @@
+org.tentackle.pdo.DomainObject: flipkart.domain.md.User2GroupDomainImpl = flipkart.pdo.md.User2Group

@@ -1,0 +1,3 @@
+org.tentackle.pdo.Plural: flipkart.pdo.md.OrgUnit = "Organizational Units"
+org.tentackle.pdo.Singular: flipkart.pdo.md.OrgUnit = "Organizational Unit"
+org.tentackle.session.TableName: flipkart.pdo.md.OrgUnit = "md.orgunit"

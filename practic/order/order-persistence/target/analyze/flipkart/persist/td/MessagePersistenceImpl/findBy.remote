@@ -1,0 +1,14 @@
+# org.tentackle.buildsupport.RemoteMethodInfo Version 2.0
+# public org.tentackle.misc.TrackedList<flipkart.pdo.td.Message> findBy(java.lang.String messageNumber, org.tentackle.common.Timestamp from, org.tentackle.common.Timestamp until, flipkart.pdo.MessageType type, flipkart.pdo.md.OrgUnit<?> orgUnit, java.lang.String pattern)
+method: findBy
+class: flipkart.persist.td.MessagePersistenceImpl
+superclass: flipkart.persist.AbstractPersistentTransactionData<flipkart.pdo.td.Message,flipkart.persist.td.MessagePersistenceImpl>
+returns: org.tentackle.misc.TrackedList<flipkart.pdo.td.Message> <flipkart.pdo.td.Message> false true false true false false
+modifiers: public
+varargs: false
+arg[0]: messageNumber java.lang.String false false false false
+arg[1]: from org.tentackle.common.Timestamp false false false false
+arg[2]: until org.tentackle.common.Timestamp false false false false
+arg[3]: type flipkart.pdo.MessageType false false false false
+arg[4]: orgUnit flipkart.pdo.md.OrgUnit<?> false false true true
+arg[5]: pattern java.lang.String false false false false

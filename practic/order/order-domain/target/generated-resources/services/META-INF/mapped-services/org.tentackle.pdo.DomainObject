@@ -1,0 +1,5 @@
+flipkart.domain.td.MessageDomainImpl = flipkart.pdo.td.Message
+flipkart.domain.md.User2GroupDomainImpl = flipkart.pdo.md.User2Group
+flipkart.domain.md.OrgUnitDomainImpl = flipkart.pdo.md.OrgUnit
+flipkart.domain.md.UserGroupDomainImpl = flipkart.pdo.md.UserGroup
+flipkart.domain.md.UserDomainImpl = flipkart.pdo.md.User

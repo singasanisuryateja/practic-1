@@ -1,0 +1,4 @@
+--patch-module
+flipkart.server=_
+--add-reads
+flipkart.server=ALL-UNNAMED

@@ -1,0 +1,4 @@
+--patch-module
+flipkart.pdo=_
+--add-reads
+flipkart.pdo=ALL-UNNAMED

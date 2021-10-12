@@ -1,0 +1,1 @@
+org.tentackle.pdo.DomainObject: flipkart.domain.md.OrgUnitDomainImpl = flipkart.pdo.md.OrgUnit

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="2.264" tests="5" errors="0" skipped="5" failures="0">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="user.region" value="US"/>
+    <property name="java.class.path" value="/opt/order/order-gui/target/test-classes:/root/.m2/repository/org/openjfx/javafx-web/15/javafx-web-15.jar:/root/.m2/repository/org/openjfx/javafx-controls/15/javafx-controls-15.jar:/root/.m2/repository/org/openjfx/javafx-graphics/15/javafx-graphics-15.jar:/root/.m2/repository/org/openjfx/javafx-base/15/javafx-base-15.jar:/root/.m2/repository/org/openjfx/javafx-media/15/javafx-media-15.jar:/root/.m2/repository/org/openjfx/javafx-fxml/15/javafx-fxml-15.jar:/root/.m2/repository/org/tentackle/tentackle-test-fx-rdc/11.7.0.0/tentackle-test-fx-rdc-11.7.0.0.jar:/root/.m2/repository/org/tentackle/tentackle-test-pdo/11.7.0.0/tentackle-test-pdo-11.7.0.0.jar:/opt/order/order-persistence/target/order-persistence-1.0-SNAPSHOT.jar:/root/.m2/repository/org/tentackle/tentackle-persistence/11.7.0.0/tentackle-persistence-11.7.0.0.jar:/root/.m2/repository/org/tentackle/tentackle-database/11.7.0.0/tentackle-database-11.7.0.0.jar:/root/.m2/repository/org/tentackle/tentackle-sql/11.7.0.0/tentackle-sql-11.7.0.0.jar:/opt/order/order-domain/target/order-domain-1.0-SNAPSHOT.jar:/root/.m2/repository/org/tentackle/tentackle-domain/11.7.0.0/tentackle-domain-11.7.0.0.jar:/root/.m2/repository/org/postgresql/postgresql/42.2.17/postgresql-42.2.17.jar:/root/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/root/.m2/repository/org/reflections/reflections/0.9.12/reflections-0.9.12.jar:/root/.m2/repository/org/javassist/javassist/3.26.0-GA/javassist-3.26.0-GA.jar:/root/.m2/repository/org/testng/testng/7.3.0/testng-7.3.0.jar:/root/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/root/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/root/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/root/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2-no_aop.jar:/root/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/root/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/root/.m2/repository/com/google/guava/guava/25.1-android/guava-25.1-android.jar:/root/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/root/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/root/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/root/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/root/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/root/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /opt/order/order-gui/target/surefire 2021-10-11T15-42-59_197-jvmRun1 surefire5147600258176611799tmp surefire_21824779632139576048tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/opt/order/order-gui/target/test-classes:/root/.m2/repository/org/openjfx/javafx-web/15/javafx-web-15.jar:/root/.m2/repository/org/openjfx/javafx-controls/15/javafx-controls-15.jar:/root/.m2/repository/org/openjfx/javafx-graphics/15/javafx-graphics-15.jar:/root/.m2/repository/org/openjfx/javafx-base/15/javafx-base-15.jar:/root/.m2/repository/org/openjfx/javafx-media/15/javafx-media-15.jar:/root/.m2/repository/org/openjfx/javafx-fxml/15/javafx-fxml-15.jar:/root/.m2/repository/org/tentackle/tentackle-test-fx-rdc/11.7.0.0/tentackle-test-fx-rdc-11.7.0.0.jar:/root/.m2/repository/org/tentackle/tentackle-test-pdo/11.7.0.0/tentackle-test-pdo-11.7.0.0.jar:/opt/order/order-persistence/target/order-persistence-1.0-SNAPSHOT.jar:/root/.m2/repository/org/tentackle/tentackle-persistence/11.7.0.0/tentackle-persistence-11.7.0.0.jar:/root/.m2/repository/org/tentackle/tentackle-database/11.7.0.0/tentackle-database-11.7.0.0.jar:/root/.m2/repository/org/tentackle/tentackle-sql/11.7.0.0/tentackle-sql-11.7.0.0.jar:/opt/order/order-domain/target/order-domain-1.0-SNAPSHOT.jar:/root/.m2/repository/org/tentackle/tentackle-domain/11.7.0.0/tentackle-domain-11.7.0.0.jar:/root/.m2/repository/org/postgresql/postgresql/42.2.17/postgresql-42.2.17.jar:/root/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/root/.m2/repository/org/reflections/reflections/0.9.12/reflections-0.9.12.jar:/root/.m2/repository/org/javassist/javassist/3.26.0-GA/javassist-3.26.0-GA.jar:/root/.m2/repository/org/testng/testng/7.3.0/testng-7.3.0.jar:/root/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/root/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/root/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/root/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2-no_aop.jar:/root/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/root/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/root/.m2/repository/com/google/guava/guava/25.1-android/guava-25.1-android.jar:/root/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/root/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/root/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/root/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/root/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/root/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/root"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="jdk.module.path" value="/opt/order/order-gui/target/classes:/opt/order/order-pdo/target/order-pdo-1.0-SNAPSHOT.jar:/opt/order/order-common/target/order-common-1.0-SNAPSHOT.jar:/root/.m2/repository/org/tentackle/tentackle-fx-rdc/11.7.0.0/tentackle-fx-rdc-11.7.0.0.jar:/root/.m2/repository/org/tentackle/tentackle-fx/11.7.0.0/tentackle-fx-11.7.0.0.jar:/root/.m2/repository/org/tentackle/tentackle-core/11.7.0.0/tentackle-core-11.7.0.0.jar:/root/.m2/repository/org/tentackle/tentackle-common/11.7.0.0/tentackle-common-11.7.0.0.jar:/root/.m2/repository/org/openjfx/javafx-web/15/javafx-web-15-linux.jar:/root/.m2/repository/org/openjfx/javafx-controls/15/javafx-controls-15-linux.jar:/root/.m2/repository/org/openjfx/javafx-graphics/15/javafx-graphics-15-linux.jar:/root/.m2/repository/org/openjfx/javafx-base/15/javafx-base-15-linux.jar:/root/.m2/repository/org/openjfx/javafx-media/15/javafx-media-15-linux.jar:/root/.m2/repository/org/openjfx/javafx-fxml/15/javafx-fxml-15-linux.jar:/root/.m2/repository/org/tentackle/tentackle-pdo/11.7.0.0/tentackle-pdo-11.7.0.0.jar:/root/.m2/repository/org/tentackle/tentackle-session/11.7.0.0/tentackle-session-11.7.0.0.jar"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/opt/order/order-gui"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/root/.m2/repository/org/apache/maven/surefire/surefire-booter/2.22.2/surefire-booter-2.22.2.jar:/root/.m2/repository/org/apache/maven/surefire/surefire-api/2.22.2/surefire-api-2.22.2.jar:/root/.m2/repository/org/apache/maven/surefire/surefire-logger-api/2.22.2/surefire-logger-api-2.22.2.jar:/opt/order/order-gui/target/test-classes:/root/.m2/repository/org/openjfx/javafx-web/15/javafx-web-15.jar:/root/.m2/repository/org/openjfx/javafx-controls/15/javafx-controls-15.jar:/root/.m2/repository/org/openjfx/javafx-graphics/15/javafx-graphics-15.jar:/root/.m2/repository/org/openjfx/javafx-base/15/javafx-base-15.jar:/root/.m2/repository/org/openjfx/javafx-media/15/javafx-media-15.jar:/root/.m2/repository/org/openjfx/javafx-fxml/15/javafx-fxml-15.jar:/root/.m2/repository/org/tentackle/tentackle-test-fx-rdc/11.7.0.0/tentackle-test-fx-rdc-11.7.0.0.jar:/root/.m2/repository/org/tentackle/tentackle-test-pdo/11.7.0.0/tentackle-test-pdo-11.7.0.0.jar:/opt/order/order-persistence/target/order-persistence-1.0-SNAPSHOT.jar:/root/.m2/repository/org/tentackle/tentackle-persistence/11.7.0.0/tentackle-persistence-11.7.0.0.jar:/root/.m2/repository/org/tentackle/tentackle-database/11.7.0.0/tentackle-database-11.7.0.0.jar:/root/.m2/repository/org/tentackle/tentackle-sql/11.7.0.0/tentackle-sql-11.7.0.0.jar:/opt/order/order-domain/target/order-domain-1.0-SNAPSHOT.jar:/root/.m2/repository/org/tentackle/tentackle-domain/11.7.0.0/tentackle-domain-11.7.0.0.jar:/root/.m2/repository/org/postgresql/postgresql/42.2.17/postgresql-42.2.17.jar:/root/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/root/.m2/repository/org/reflections/reflections/0.9.12/reflections-0.9.12.jar:/root/.m2/repository/org/javassist/javassist/3.26.0-GA/javassist-3.26.0-GA.jar:/root/.m2/repository/org/testng/testng/7.3.0/testng-7.3.0.jar:/root/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/root/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/root/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/root/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2-no_aop.jar:/root/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/root/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/root/.m2/repository/com/google/guava/guava/25.1-android/guava-25.1-android.jar:/root/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/root/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/root/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/root/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/root/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/root/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/root/.m2/repository/org/apache/maven/surefire/surefire-testng/2.22.2/surefire-testng-2.22.2.jar:/root/.m2/repository/org/apache/maven/surefire/common-java5/2.22.2/common-java5-2.22.2.jar:/root/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.22.2/surefire-testng-utils-2.22.2.jar:/root/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.22.2/surefire-grouper-2.22.2.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.11+9-Ubuntu-0ubuntu2.20.04"/>
+    <property name="user.name" value="root"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.4.0-1045-aws"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/root/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.11"/>
+    <property name="user.dir" value="/opt/order/order-gui"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.vm.version" value="11.0.11+9-Ubuntu-0ubuntu2.20.04"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="startFx on fx-rdc-provider-test" classname="flipkart.gui.TestGuiProviders" time="0">
+    <skipped message="FX not supported -&gt; no FX tests"/>
+    <system-err><![CDATA[Oct 11, 2021 3:43:14 PM org.tentackle.log.DefaultLoggerFactory getConfiguredLoggerClass
+INFO: no logging backend configured -> using default java.util.logging
+Loading library prism_es2 from resource failed: java.lang.UnsatisfiedLinkError: /root/.openjfx/cache/15/libprism_es2.so: libGL.so.1: cannot open shared object file: No such file or directory
+java.lang.UnsatisfiedLinkError: /root/.openjfx/cache/15/libprism_es2.so: libGL.so.1: cannot open shared object file: No such file or directory
+	at java.base/java.lang.ClassLoader$NativeLibrary.load0(Native Method)
+	at java.base/java.lang.ClassLoader$NativeLibrary.load(ClassLoader.java:2442)
+	at java.base/java.lang.ClassLoader$NativeLibrary.loadLibrary(ClassLoader.java:2498)
+	at java.base/java.lang.ClassLoader.loadLibrary0(ClassLoader.java:2694)
+	at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2627)
+	at java.base/java.lang.Runtime.load0(Runtime.java:768)
+	at java.base/java.lang.System.load(System.java:1837)
+	at javafx.graphics/com.sun.glass.utils.NativeLibLoader.installLibraryFromResource(NativeLibLoader.java:214)
+	at javafx.graphics/com.sun.glass.utils.NativeLibLoader.loadLibraryFromResource(NativeLibLoader.java:194)
+	at javafx.graphics/com.sun.glass.utils.NativeLibLoader.loadLibraryInternal(NativeLibLoader.java:135)
+	at javafx.graphics/com.sun.glass.utils.NativeLibLoader.loadLibrary(NativeLibLoader.java:53)
+	at javafx.graphics/com.sun.prism.es2.ES2Pipeline.lambda$static$0(ES2Pipeline.java:69)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at javafx.graphics/com.sun.prism.es2.ES2Pipeline.<clinit>(ES2Pipeline.java:51)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:315)
+	at javafx.graphics/com.sun.prism.GraphicsPipeline.createPipeline(GraphicsPipeline.java:218)
+	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumRenderer$PipelineRunnable.init(QuantumRenderer.java:91)
+	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumRenderer$PipelineRunnable.run(QuantumRenderer.java:124)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+]]></system-err>
+  </testcase>
+  <testcase name="setUpClass on fx-rdc-provider-test" classname="flipkart.gui.TestGuiProviders" time="0">
+    <skipped message="no backend found -&gt; no tests"/>
+  </testcase>
+  <testcase name="testGuiProviders on fx-rdc-provider-test" classname="flipkart.gui.TestGuiProviders" time="0">
+    <skipped message="no backend found -&gt; no tests"/>
+  </testcase>
+  <testcase name="setUpClass on fx-rdc-conroller-test" classname="flipkart.gui.TestControllers" time="0">
+    <skipped message="no backend found -&gt; no tests"/>
+  </testcase>
+  <testcase name="testControllers on fx-rdc-conroller-test" classname="flipkart.gui.TestControllers" time="0">
+    <skipped message="no backend found -&gt; no tests"/>
+  </testcase>
+</testsuite>

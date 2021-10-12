@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>flipkart</groupId>
+    <artifactId>order</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>order-pdo</artifactId>
+  <packaging>jar</packaging>
+  <name>mvn PDO</name>
+  <description>PDO Layer for ${pplication}</description>
+
+  <properties>
+    <rootBasedir>${project.parent.basedir}</rootBasedir>
+  </properties>
+
+  <dependencies>
+
+    <dependency>
+      <groupId>flipkart</groupId>
+      <artifactId>order-common</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+
+    <!-- tests only -->
+    <dependency>
+      <groupId>org.reflections</groupId>
+      <artifactId>reflections</artifactId>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.wurbelizer</groupId>
+        <artifactId>wurbelizer-maven-plugin</artifactId>
+      </plugin>
+      <plugin>
+        <groupId>org.tentackle</groupId>
+        <artifactId>tentackle-sql-maven-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>

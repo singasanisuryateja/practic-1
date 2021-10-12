@@ -1,0 +1,8 @@
+flipkart.gui.prefs.PreferencesDialog
+flipkart.gui.prefs.GeneralPreferences
+flipkart.gui.message.MessageFinder
+flipkart.gui.about.AboutView
+flipkart.gui.user.UserEditor
+flipkart.gui.usergroup.UserGroupEditor
+flipkart.gui.main.MainController
+flipkart.gui.password.ChangePasswordView

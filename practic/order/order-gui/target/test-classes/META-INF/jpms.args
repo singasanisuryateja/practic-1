@@ -1,0 +1,4 @@
+--patch-module
+flipkart.gui=_
+--add-reads
+flipkart.gui=ALL-UNNAMED

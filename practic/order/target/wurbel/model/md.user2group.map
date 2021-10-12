@@ -1,0 +1,25 @@
+#@/opt/order/order-pdo/src/main/java/flipkart/pdo/md/User2Group.java:25
+
+# User to Group N:M Link
+name := User2Group
+table := md.user2group
+id := 1003
+integrity := full
+
+## attributes[-bind, -autoselect, -size]
+long     userGroupId     group_id    user group ID
+long    	userId          user_id     user ID
+
+## indexes
+unique index udk := group_id, user_id
+index user       := user_id
+
+## relations
+User:
+   select = cached
+
+UserGroup:
+   select = cached
+
+## validations
+

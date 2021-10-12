@@ -1,0 +1,1 @@
+org.tentackle.pdo.PersistentObject: flipkart.persist.md.UserGroupPersistenceImpl = flipkart.pdo.md.UserGroup

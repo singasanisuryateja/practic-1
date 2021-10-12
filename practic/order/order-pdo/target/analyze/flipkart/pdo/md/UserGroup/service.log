@@ -1,0 +1,4 @@
+org.tentackle.session.ClassId: flipkart.pdo.md.UserGroup = 1002
+org.tentackle.pdo.Plural: flipkart.pdo.md.UserGroup = "UserGroups"
+org.tentackle.pdo.Singular: flipkart.pdo.md.UserGroup = "UserGroup"
+org.tentackle.session.TableName: flipkart.pdo.md.UserGroup = "md.usergroup"
